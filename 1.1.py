@@ -13,5 +13,5 @@ print(f'{a} or {b} = {a | b} ({bin(a | b)})')
 print(f'{a} xor {b} = {a ^ b} ({bin(a ^ b)})')
 
 # Побитовый сдвиг вправо и влево(умножение и деление на 4)
-print(f'{a << 2} = {bin(a << 2)}')
-print(f'{a >> 2} = {bin(a >> 2)}')
+print(f'a << 2 = {a << 2} = {bin(a << 2)}')
+print(f'a >> 2 = {a >> 2} = {bin(a >> 2)}')

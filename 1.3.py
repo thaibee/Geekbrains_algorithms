@@ -7,7 +7,7 @@ while True:
         print(random.randint(a[0], a[1]))
     elif m == 'b':
         a = list(map(float, input('Enter 2 Float digits, separated by comma:').split(',')))
-        print(random.randint(a[0] * 10 ** 5, a[1] * 10 ** 5) / 10 ** 5)
+        print(f'{random.uniform(a[0], a[1]):.4f}')
     elif m == 'c':
         a = input('Enter 2 symbols please, separated by comma:').split(',')
         print(chr(random.randint(ord(a[0]), ord(a[1]))))
